@@ -1,0 +1,61 @@
+body {
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    background:linear-gradient(-45deg, #111, #222);
+    background-size:1vw 1vw;
+    animation:wave 45s linear 9.5s infinite, colorSwap 5s linear 9.5s infinite;
+}
+@keyframes wave {
+    100%{ transform:rotate(360deg); }
+}
+
+@keyframes colorSwap {
+    50% { filter:hue-rotate(360deg); }
+}
+
+#gameBox {
+    width:10px;
+    height:10px;
+  /*   background:#222; */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);  
+}
+
+@keyframes grow {
+    100% { width:100vw; height:100vh; transform:translate(-50%, -50%) rotate(3240deg); }
+}
+
+#trace {
+    width:1px;
+    height:1px;
+    background:#f00;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#trace2 {
+    width:1px;
+    height:1px;
+    background:#f00;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.dot {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%,-50%);
+    border-radius:50%;
+    box-shadow:0 0 15px black;
+}
+/* .dot:nth-child(even) {
+    background:green !important;
+}
+.dot:nth-child(odd) {
+    background:darkred !important;
+  } */
