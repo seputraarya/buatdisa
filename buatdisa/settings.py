@@ -25,7 +25,7 @@ SECRET_KEY = 'o$5txtvipo)*=$knn0x_rha@dbgzp)0p5po9i0l8n*f&g$g1#('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'seputraarya.github.io']
 
 
 # Application definition
