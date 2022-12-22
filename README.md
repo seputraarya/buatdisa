@@ -1,1 +1,1 @@
-# buatdisa.githu.io
+# buatdisa.github.io
